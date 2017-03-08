@@ -5,13 +5,22 @@
     <title>Hello</title>
   </head>
   <body>
-    <script language="javascript" type="text/javascript" src="alert.js" >
-        document.write("Helo");
+    <script language="javascript" type="text/javascript">
+        document.write("Helo")
+        function sayHello(){
+            var myVar = "Heri";
+            alert("Ok hello")
+            document.write(myVar);
+            
+            
+        }
 
     </script>
     <h1>JS Beginner</h1>
     <div id="content">
       <p>blah blah blah</p>
+        Klik untuk hasil
+        <input type="button" onclick="sayHello()" value="Say Hello"/>
 
     </div>
 
